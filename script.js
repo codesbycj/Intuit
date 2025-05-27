@@ -3,10 +3,12 @@ const hamburgerUnActive = document.querySelector(".closeburger");
 const navBtn = document.querySelector(".navbar-toggler");
 const variableBurger = document.querySelector(".jsBurger");
 const discount = document.getElementById('discount');
+const seperator = document.querySelector('.seperator')
 
 setTimeout(() => {
     discount.style.display = 'block';
-}, 3000);
+    seperator.style.display = 'block';
+}, 1000);
 
 console.log(typeof hamburgerActive);
 
