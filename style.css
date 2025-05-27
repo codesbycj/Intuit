@@ -140,6 +140,12 @@ body {
 
 /* NAVIGATION BAR */
 
+nav {
+  z-index: 100;
+  background-color: white;
+  width: 100vw;
+}
+
 .navbar-toggler:focus {
   box-shadow: none !important;
 }
@@ -164,6 +170,7 @@ body {
 
 .navContent {
   max-width: 1590px;
+  width: 100vw;
   margin: 0 auto;
   display: none;
   grid-template-columns: 1fr 1.5fr 2fr;
@@ -174,7 +181,7 @@ body {
   padding: 2rem 8rem;
   position: absolute;
   left: 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 .nav-item {
@@ -265,7 +272,7 @@ body {
   display: flex;
   gap: 2rem;
   align-items: center;
-  z-index: 2;
+  z-index: 200;
 }
 
 .lastNavbarNav .nav-item:first-child {
@@ -344,6 +351,7 @@ body {
 /* HERO SECTION */
 #hero {
   padding: 0 .5rem;
+  margin: 6rem 0;
 }
 
 .hero {
