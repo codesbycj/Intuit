@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <mask id="btestimonial-next-arrow" width="15" height="10" x="4" y="7" maskUnits="userSpaceOnUse">
+                <path fill="#fff" d="M19 15a.999.999 0 01-1.707.707L12 10.414l-5.293 5.293a.999.999 0 11-1.414-1.414l6-6a.999.999 0 011.414 0l6 6A.997.997 0 0119 15z">
+                </path>
+              </mask>
+              <g mask="url(#btestimonial-next-arrow)">
+                <path fill="#6B6C72" d="M0 0v24h24V0H0z"></path>
+              </g>
+            </svg>
