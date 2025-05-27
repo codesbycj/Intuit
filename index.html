@@ -18,7 +18,7 @@
 
 <body>
     <!-- DISCOUNT BAR -->
-    <div class="oneBigNav" style="position: fixed;">
+    <div class="oneBigNav" style="position: fixed; z-index: 200">
         <div id="discount">
             <div class="discount container d-none d-md-flex ">
                 <i class="fa-solid fa-tags"></i>
@@ -584,27 +584,193 @@
 
     <!-- HERO SECTION -->
     <section id="hero">
-        <div class="hero container">
+        <div class="hero container d-none d-lg-block">
+        </div>
 
+        <div class="heroSm container d-lg-none">
         </div>
     </section>
 
     <!-- LIL SUB HERO -->
-     <section id="subhero">
+    <section id="subhero">
         <div class="subhero">
             <div class="sHImg sHEach">
                 <img src="assets/10039.png" alt="" srcset="">
             </div>
 
             <div class="sHText sHEach">
-                <h2 style="font-weight: 700;">Students are eligible for a free QuickBooks Online account for 12 months</h2>
+                <h2 style="font-weight: 700;">Students are eligible for a free QuickBooks Online account for 12 months
+                </h2>
             </div>
-            
+
             <div class="sHBtn sHEach">
                 <a href="">Register For Free</a>
             </div>
         </div>
-     </section>
+    </section>
+
+
+    <!--CAROUSEL NIGGA  -->
+    <div id="carousel">
+        <div class="carousel container">
+            <div class="carouselHead mb-5">
+                <h3 class="text-center display-5 fw-bold">Smart features that help you save time</h3>
+                <p class="my-0 text-center">Manage everything in one place. Save 13.3 hours each week using QuickBooks*.
+                </p>
+            </div>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"
+                        style="background-color: var(--color-black); width: 15px; height: 15px; border-radius: 50%;"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                        style="background-color: var(--color-black); width: 15px; height: 15px; border-radius: 50%;"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="itemz">
+                            <div class="d">
+                                <div class="item">
+                                    <div class="itemImg">
+                                        <img src="assets/10040.svg" alt="" srcset="">
+                                    </div>
+                                    <h3>Keep an eye on where <br /> your money goes</h3>
+                                    <p>Connect your bank to QuickBooks and set up bank feeds to save time and
+                                        reduce errors.</p>
+                                    <div class="itBtn d-none d-md-block">
+                                        <a href="">Learn About Bank Feeds</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d d-none d-lg-block">
+                                <div class="item">
+                                    <div class="itemImg">
+                                        <img src="assets/10041.svg" alt="" srcset="">
+                                    </div>
+                                    <h3>Connect your apps</h3>
+                                    <p>Connect your apps to QuickBooks and have a single source of truth.</p>
+                                    <div class="itBtn d-none d-md-block">
+                                        <a href="">Learn About Apps</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d d-none d-md-block">
+                                <div class="item">
+                                    <div class="itemImg">
+                                        <img src="assets/10042.svg" alt="" srcset="">
+                                    </div>
+                                    <h3>Turn heads and open wallets</h3>
+                                    <p>Create and send professional-looking invoices in seconds.</p>
+                                    <div class="itBtn d-none d-md-block">
+                                        <a href="">Learn About Invoicing</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="itemz">
+                            <div class="d">
+                                <div class="item">
+                                    <div class="itemImg">
+                                        <img src="assets/10043.svg" alt="" srcset="">
+                                    </div>
+                                    <h3>Never lose another receipt</h3>
+                                    <p>We'll keep a photo record of every receipt so you're always organised
+                                        for tax time. Say goodbye to that shoebox full of receipts.</p>
+                                    <div class="itBtn d-none d-md-block">
+                                        <a href="">Learn About Tracking Expenses</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d d-none d-lg-block">
+                                <div class="item">
+                                    <div class="itemImg">
+                                        <img src="assets/10044.svg" alt="" srcset="">
+                                    </div>
+                                    <h3>Run a report in seconds</h3>
+                                    <p>See how your business is doing with a range of popular reports. Or
+                                        customise one to include details that matter to you.</p>
+                                    <div class="itBtn d-none d-md-block">
+                                        <a href="">Learn About Bank Feeds</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d d-none d-md-block">
+                                <div class="item">
+                                    <div class="itemImg">
+                                        <img src="assets/10045.svg" alt="" srcset="">
+                                    </div>
+                                    <h3>Moving to QuickBooks Online is easy</h3>
+                                    <p>Import your data from Excel, Reckon, MYOB or Xero using CSV files.</p>
+                                    <div class="itBtn d-none d-md-block">
+                                        <a href="">Learn About Data Migration</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+            <p class="lead my-5 d-none d-lg-block" style="font-size: 18px;">
+                *Based on September 2022 survey of small businesses using QuickBooks Online in global markets who stated
+                they saved time compared with their previous method. Global markets exclude AU, BR, CA, FR, IN, MX, UK,
+                and US.
+            </p>
+        </div>
+    </div>
+
+    <!-- LOOKS LIKE DISCOUNT -->
+    <div id="llDiscount">
+        <div class="llDiscount container">
+            <div class="sale">
+                <p class="my-0">SALE</p>
+            </div>
+
+            <p class="display-4 fw-bold my-3">Save up to 90% off for 6 months</p>
+            <p class="my-0">Secure online accounting that saves you time</p>
+
+            <div class="llDBtn">
+                <a href="">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+     <!-- LIL SUB HERO -->
+    <section id="subhero">
+        <div class="subhero">
+            <div class="sHImg sHEach">
+                <img src="assets/10039.png" alt="" srcset="">
+            </div>
+
+            <div class="sHText sHEach">
+                <h2 style="font-weight: 700;">Students are eligible for a free QuickBooks Online account for 12 months
+                </h2>
+            </div>
+
+            <div class="sHBtn sHEach">
+                <a href="">Register For Free</a>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
