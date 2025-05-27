@@ -164,10 +164,6 @@ nav {
   font-size: 18px;
 }
 
-.navrel {
-  position: relative;
-}
-
 .navContent {
   max-width: 1590px;
   width: 100vw;
@@ -351,7 +347,6 @@ nav {
 /* HERO SECTION */
 #hero {
   padding: 0 .5rem;
-  margin: 6rem 0;
 }
 
 .hero {
@@ -360,13 +355,11 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   height: 75vh;
-  position: relative;
   border-radius: 15px;
 }
 
 .hero::after {
   content: '';
-  position: absolute;
   top: 0;  
   left: 0;
   width: 100%;
