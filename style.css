@@ -540,7 +540,8 @@ nav {
 }
 
 .itBtn:hover a,
-.llDBtn:hover a {
+.llDBtn:hover a,
+.gBtn:hover {
   background-color: var(--color-black);
   color: var(--color-white);
 }
@@ -563,7 +564,6 @@ nav {
   background-color: var(--color-blue);
 }
 
-
 .llDiscount {
   text-align: center;
   display: flex;
@@ -577,10 +577,108 @@ nav {
   margin: 2rem auto 0 auto;
 }
 
-.llDBtn a {
+.llDBtn a,
+.gBtn {
   text-decoration: none;
   color: var(--color-black);
   padding: 1rem 2rem;
   border: 2px solid var(--color-black);
   border-radius: 5px;
+}
+
+/* GUIDE */
+.guide {
+  width: 70%;
+  height: 360px;
+  background-color: #f3f2ef;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.gText {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  margin-left: 6rem;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.gImg {
+  width: 100%;
+}
+
+.gImg img {
+  width: 100%;
+}
+
+.gBtn {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+  #guide {
+    margin-top: 3rem;
+  }
+
+  .guide {
+    flex-direction: column-reverse;
+    width: 90%;
+    height: unset;
+    padding: 2rem 1rem;
+  }
+
+  .gText {
+    margin-left: unset;
+    text-align: center;
+    margin-top: 3rem;
+    gap: 0.5rem;
+  }
+}
+
+/* TESTIMONIAL */
+
+#testimonials {
+  padding: 3rem 0;
+  margin: 3rem 0;
+}
+
+.theTestimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem ;
+  margin-top: 5rem;
+}
+
+.testimony{
+  border-radius: 15px;
+  background-color: #F3F2EF;
+  width: 100%;
+}
+
+.testimonialText {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.testimonialText .sale {
+  background-color: #ff8540;
+  width: 60%;
+  text-align: center;
+}
+
+.testimonials img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
